@@ -1,6 +1,18 @@
-/* =========================
-   GENERAL STYLING
-========================= */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
 
 body {
     font-family: Arial, sans-serif;
